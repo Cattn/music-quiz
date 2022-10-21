@@ -4,6 +4,7 @@
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
+    overflow-y: hidden;
   }
 
 body {
@@ -59,6 +60,6 @@ color: #000000;
 .back {
     bottom: 0;
     left: 0;
-    width: 700px;
-    height: 200px;
+    width: 90%;
+    height: 90%;
 }
