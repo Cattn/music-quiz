@@ -245,7 +245,7 @@ function submitForm4() {
   spon = JSON.parse(spondat);
 
   if (c1 == true) {
-      obj += 2;
+      obje += 2;
       cons += 1;
   }
   if (c2 == true) {
