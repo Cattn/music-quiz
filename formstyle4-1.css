@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+  }
+  
+  body {
+      background: #BDE1ED;
+    }
+  
+  .title-q {
+    font-family: 'Cooper Black';
+  font-style: normal;
+  font-size: 64px;
+  /* identical to box height */
+  color: #000000;
+  display: block;
+  }
+  
+  .q-text {
+    font-family: 'Cooper Black';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  display: block;
+  padding: 10px;
+  }
+  
+  .center-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-design {
+    width: 400px;
+  height: 350px;
+  
+  background: #CA9B9B;
+  border-radius: 38px;
+  }
+  
+  .form-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    padding: 20px;
+  }
+  
+  .form-box-1 {
+    width: 250px;
+    height: 40px;
+  
+    background: #D9D9D9;
+    border-radius: 17px;
+    text-align: center;
+    font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  }
+  
+  .form-box-2 {
+    width: 250px;
+    height: 40px;
+  
+    background: #D9D9D9;
+    border-radius: 17px;
+    text-align: center;
+    font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  }
+  
+  .form-box-3 {
+    width: 250px;
+    height: 40px;
+  
+    background: #D9D9D9;
+    border-radius: 17px;
+    text-align: center;
+    font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  }
+  
+  .form-box-4 {
+    width: 250px;
+    height: 40px;
+  
+    background: #D9D9D9;
+    border-radius: 17px;
+    text-align: center;
+    font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pad {
+    margin-top: 12px;
+  }
+  
+  .button {
+    width: 200px;
+    height: 40px;
+    background: #D9D9D9;
+    cursor: pointer;
+  }
+
+  .button-1 {
+    padding: 20px;
+  }

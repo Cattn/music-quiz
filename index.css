@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+  }
+
+body {
+    background: #BDE1ED;
+  }
+
+
+.title {
+    font-family: 'Cooper Black';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+margin-top: 20px;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+.center-title {
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.title-text {
+    margin-top: 10px;
+}
+
+.button {
+    background: rgba(202, 155, 155, 0.96);
+    border-radius: 32px;
+    padding: 10px;
+    width: 400px;
+    height: 80px;
+}
+
+.button-text {
+    font-family: 'Cooper Black';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 73px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #000000;
+}
+
+.position {
+    margin-top: 100px;
+}
+
+.back {
+    bottom: 0;
+    left: 0;
+    width: 700px;
+    height: 200px;
+}

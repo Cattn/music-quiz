@@ -1,2 +1,1 @@
-# music-quiz
- Testing
+# Music Quiz
