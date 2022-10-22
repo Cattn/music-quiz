@@ -172,6 +172,7 @@
     justify-content: space-between;
   }
   input[type='radio'] {
-    transform: scale(2);
+    transform: scale(3);
+    margin-right: 5px;
   }
   
