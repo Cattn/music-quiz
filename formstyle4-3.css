@@ -35,8 +35,8 @@
   }
   
   .form-design {
-    width: 400px;
-  height: 430px;
+    width: 800px;
+    height: 450px;
   
   background: #CA9B9B;
   border-radius: 38px;
@@ -53,20 +53,21 @@
   }
   
   .form-box-1 {
-    width: 250px;
-    height: 40px;
+    width: 300px;
+    height: 100px;
   
     background: #D9D9D9;
     border-radius: 17px;
     text-align: center;
     font-family: 'Calibri';
-  font-style: normal;
-  font-weight: 700;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
   }
   
   .form-box-2 {
-    width: 250px;
-    height: 40px;
+    width: 300px;
+    height: 100px;
   
     background: #D9D9D9;
     border-radius: 17px;
@@ -74,11 +75,12 @@
     font-family: 'Calibri';
   font-style: normal;
   font-weight: 700;
+  font-size: 32px;
   }
   
   .form-box-3 {
-    width: 250px;
-    height: 40px;
+    width: 300px;
+    height: 100px;
   
     background: #D9D9D9;
     border-radius: 17px;
@@ -86,11 +88,12 @@
     font-family: 'Calibri';
   font-style: normal;
   font-weight: 700;
+  font-size: 32px;
   }
   
   .form-box-4 {
-    width: 250px;
-    height: 40px;
+    width: 300px;
+    height: 100px;
   
     background: #D9D9D9;
     border-radius: 17px;
@@ -98,28 +101,40 @@
     font-family: 'Calibri';
   font-style: normal;
   font-weight: 700;
+  font-size: 32px;
   }
 
   .form-box-5 {
-    width: 250px;
-    height: 40px;
+    width: 300px;
+    height: 100px;
   
     background: #D9D9D9;
     border-radius: 17px;
     text-align: center;
+    font-size: 32px;
     font-family: 'Calibri';
-  font-style: normal;
-  font-weight: 700;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 30px;
   }
   
   .center {
     display: flex;
     justify-content: center;
     align-items: center;
+
+  }
+
+  .center-2 {
+    margin-left: 40px;
+  }
+
+  .center-1 {
+    margin-right: 40px;
   }
   
   .pad {
-    margin-top: 10px;
+    margin-top: 45px;
   }
   
   .button {
@@ -128,3 +143,22 @@
     background: #D9D9D9;
     cursor: pointer;
   }
+
+  .button-1 {
+    padding: 20px;
+
+  }
+
+  .align-1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .align-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  input[type='radio'] {
+    transform: scale(2);
+  }
+  

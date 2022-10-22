@@ -337,7 +337,7 @@ function submitForm5() {
   localStorage.setItem("self", JSON.stringify(self));
   localStorage.setItem("cons", JSON.stringify(cons));
   localStorage.setItem("spon", JSON.stringify(spon));
-  window.location.href = "q6.html"; 
+  window.location.href = "intermission.html"; 
 }
 
 function restart() {
@@ -385,3 +385,362 @@ function restart() {
   localStorage.setItem("spon", JSON.stringify(spon));
   window.location.href = "index.html";
 }
+
+function submitForm6() {
+    var c1 = document.getElementById('q1_1').checked;
+    var c2 = document.getElementById('q1_2').checked;
+    var c3 = document.getElementById('q1_3').checked;
+    var c4 = document.getElementById('q1_4').checked;
+    var c5 = document.getElementById('q1_5').checked;
+    
+    introdat = localStorage.getItem("intro");
+    extrodat = localStorage.getItem("extro");
+    advdat = localStorage.getItem("adv");
+    opidat = localStorage.getItem("opi");
+    objedat = localStorage.getItem("obje");
+    subjdat = localStorage.getItem("subj");
+    helpdat = localStorage.getItem("help");
+    selfdat = localStorage.getItem("self");
+    consdat = localStorage.getItem("cons");
+    spondat = localStorage.getItem("spon");
+    intro = JSON.parse(introdat);
+    extro = JSON.parse(extrodat);
+    adv = JSON.parse(advdat);
+    opi = JSON.parse(opidat);
+    obje = JSON.parse(objedat);
+    subj = JSON.parse(subjdat);
+    help = JSON.parse(helpdat);
+    self = JSON.parse(selfdat);
+    cons = JSON.parse(consdat);
+    spon = JSON.parse(spondat);
+  
+    if (c1 == true) {
+        extro += 1;
+        adv += 1;
+        subj += 1;
+        help += 1;
+        cons += 1;
+    }
+    if (c2 == true) {
+        opi += 1;
+        obje += 1;
+        self += 1;
+        cons += 1;
+    }
+    if (c3 == true) {
+        intro += 1;
+        adv += 1;
+        subj += 1;
+        spon += 1;
+    }
+    if (c4 == true) {
+        intro += 1;
+        adv += 1;
+        subj += 1;
+    }
+    if (c5 == true) {
+        opi += 3;
+    }
+    let results = [intro, extro, adv, opi, obje, subj, help, self, cons, spon];
+    console.log(results);
+    localStorage.setItem("intro", JSON.stringify(intro));
+    localStorage.setItem("extro", JSON.stringify(extro));
+    localStorage.setItem("adv", JSON.stringify(adv));
+    localStorage.setItem("opi", JSON.stringify(opi));
+    localStorage.setItem("obje", JSON.stringify(obje));
+    localStorage.setItem("subj", JSON.stringify(subj));
+    localStorage.setItem("help", JSON.stringify(help));
+    localStorage.setItem("self", JSON.stringify(self));
+    localStorage.setItem("cons", JSON.stringify(cons));
+    localStorage.setItem("spon", JSON.stringify(spon));
+    window.location.href = "q7.html"; 
+  }
+
+  function submitForm7() {
+    var c1 = document.getElementById('q1_1').checked;
+    var c2 = document.getElementById('q1_2').checked;
+    var c3 = document.getElementById('q1_3').checked;
+    var c4 = document.getElementById('q1_4').checked;
+    var c5 = document.getElementById('q1_5').checked;
+    
+    introdat = localStorage.getItem("intro");
+    extrodat = localStorage.getItem("extro");
+    advdat = localStorage.getItem("adv");
+    opidat = localStorage.getItem("opi");
+    objedat = localStorage.getItem("obje");
+    subjdat = localStorage.getItem("subj");
+    helpdat = localStorage.getItem("help");
+    selfdat = localStorage.getItem("self");
+    consdat = localStorage.getItem("cons");
+    spondat = localStorage.getItem("spon");
+    intro = JSON.parse(introdat);
+    extro = JSON.parse(extrodat);
+    adv = JSON.parse(advdat);
+    opi = JSON.parse(opidat);
+    obje = JSON.parse(objedat);
+    subj = JSON.parse(subjdat);
+    help = JSON.parse(helpdat);
+    self = JSON.parse(selfdat);
+    cons = JSON.parse(consdat);
+    spon = JSON.parse(spondat);
+  
+    if (c1 == true) {
+        extro += 1;
+        opi += 1;
+        subj += 1;
+        help += 1;
+        cons += 1;
+    }
+    if (c2 == true) {
+        intro += 1;
+        adv += 1;
+        subj += 1;
+        self += 1;
+        cons += 1;
+    }
+    if (c3 == true) {
+        intro += 1;
+        opi += 1;
+        self += 1;
+        spon += 1;
+    }
+    if (c4 == true) {
+        extro += 1;
+        opi += 1;
+        subj += 1;
+        self += 1;
+        spon += 1;
+    }
+    if (c5 == true) {
+        opi += 3;
+    }
+    let results = [intro, extro, adv, opi, obje, subj, help, self, cons, spon];
+    console.log(results);
+    localStorage.setItem("intro", JSON.stringify(intro));
+    localStorage.setItem("extro", JSON.stringify(extro));
+    localStorage.setItem("adv", JSON.stringify(adv));
+    localStorage.setItem("opi", JSON.stringify(opi));
+    localStorage.setItem("obje", JSON.stringify(obje));
+    localStorage.setItem("subj", JSON.stringify(subj));
+    localStorage.setItem("help", JSON.stringify(help));
+    localStorage.setItem("self", JSON.stringify(self));
+    localStorage.setItem("cons", JSON.stringify(cons));
+    localStorage.setItem("spon", JSON.stringify(spon));
+    window.location.href = "q8.html"; 
+  }
+  function submitForm8() {
+    var c1 = document.getElementById('q1_1').checked;
+    var c2 = document.getElementById('q1_2').checked;
+    var c3 = document.getElementById('q1_3').checked;
+    var c4 = document.getElementById('q1_4').checked;
+    var c5 = document.getElementById('q1_5').checked;
+    
+    introdat = localStorage.getItem("intro");
+    extrodat = localStorage.getItem("extro");
+    advdat = localStorage.getItem("adv");
+    opidat = localStorage.getItem("opi");
+    objedat = localStorage.getItem("obje");
+    subjdat = localStorage.getItem("subj");
+    helpdat = localStorage.getItem("help");
+    selfdat = localStorage.getItem("self");
+    consdat = localStorage.getItem("cons");
+    spondat = localStorage.getItem("spon");
+    intro = JSON.parse(introdat);
+    extro = JSON.parse(extrodat);
+    adv = JSON.parse(advdat);
+    opi = JSON.parse(opidat);
+    obje = JSON.parse(objedat);
+    subj = JSON.parse(subjdat);
+    help = JSON.parse(helpdat);
+    self = JSON.parse(selfdat);
+    cons = JSON.parse(consdat);
+    spon = JSON.parse(spondat);
+  
+    if (c1 == true) {
+        opi += 1;
+        subj += 1;
+        self += 1;
+        spon += 1;
+    }
+    if (c2 == true) {
+        adv += 1;
+        obje += 1;
+        self += 1;
+        spon += 1;
+    }
+    if (c3 == true) {
+        extro += 1;
+        adv += 1;
+        subj += 1;
+        help += 1;
+        spon += 1;
+    }
+    if (c4 == true) {
+        extro += 1;
+        adv += 1;
+        subj += 1;
+        help += 1;
+        cons += 1;
+    }
+    if (c5 == true) {
+        opi += 3;
+    }
+    let results = [intro, extro, adv, opi, obje, subj, help, self, cons, spon];
+    console.log(results);
+    localStorage.setItem("intro", JSON.stringify(intro));
+    localStorage.setItem("extro", JSON.stringify(extro));
+    localStorage.setItem("adv", JSON.stringify(adv));
+    localStorage.setItem("opi", JSON.stringify(opi));
+    localStorage.setItem("obje", JSON.stringify(obje));
+    localStorage.setItem("subj", JSON.stringify(subj));
+    localStorage.setItem("help", JSON.stringify(help));
+    localStorage.setItem("self", JSON.stringify(self));
+    localStorage.setItem("cons", JSON.stringify(cons));
+    localStorage.setItem("spon", JSON.stringify(spon));
+    window.location.href = "q9.html"; 
+  }
+
+  function submitForm9() {
+    var c1 = document.getElementById('q1_1').checked;
+    var c2 = document.getElementById('q1_2').checked;
+    var c3 = document.getElementById('q1_3').checked;
+    var c4 = document.getElementById('q1_4').checked;
+    var c5 = document.getElementById('q1_5').checked;
+    
+    introdat = localStorage.getItem("intro");
+    extrodat = localStorage.getItem("extro");
+    advdat = localStorage.getItem("adv");
+    opidat = localStorage.getItem("opi");
+    objedat = localStorage.getItem("obje");
+    subjdat = localStorage.getItem("subj");
+    helpdat = localStorage.getItem("help");
+    selfdat = localStorage.getItem("self");
+    consdat = localStorage.getItem("cons");
+    spondat = localStorage.getItem("spon");
+    intro = JSON.parse(introdat);
+    extro = JSON.parse(extrodat);
+    adv = JSON.parse(advdat);
+    opi = JSON.parse(opidat);
+    obje = JSON.parse(objedat);
+    subj = JSON.parse(subjdat);
+    help = JSON.parse(helpdat);
+    self = JSON.parse(selfdat);
+    cons = JSON.parse(consdat);
+    spon = JSON.parse(spondat);
+  
+    if (c1 == true) {
+        extro += 1;
+        subj += 1;
+        help += 1;
+        spon += 1;
+    }
+    if (c2 == true) {
+        intro += 1;
+        opi += 1;
+        obje += 1;
+        help += 1;
+        spon += 1;
+    }
+    if (c3 == true) {
+        adv += 1;
+        subj += 1;
+        cons += 1;
+    }
+    if (c4 == true) {
+        intro += 1;
+        adv += 1;
+        obje += 1;
+        self += 1;
+    }
+    if (c5 == true) {
+        opi += 3;
+    }
+    let results = [intro, extro, adv, opi, obje, subj, help, self, cons, spon];
+    console.log(results);
+    localStorage.setItem("intro", JSON.stringify(intro));
+    localStorage.setItem("extro", JSON.stringify(extro));
+    localStorage.setItem("adv", JSON.stringify(adv));
+    localStorage.setItem("opi", JSON.stringify(opi));
+    localStorage.setItem("obje", JSON.stringify(obje));
+    localStorage.setItem("subj", JSON.stringify(subj));
+    localStorage.setItem("help", JSON.stringify(help));
+    localStorage.setItem("self", JSON.stringify(self));
+    localStorage.setItem("cons", JSON.stringify(cons));
+    localStorage.setItem("spon", JSON.stringify(spon));
+    window.location.href = "q10.html"; 
+  }
+
+  function submitForm10() {
+    var c1 = document.getElementById('q1_1').checked;
+    var c2 = document.getElementById('q1_2').checked;
+    var c3 = document.getElementById('q1_3').checked;
+    var c4 = document.getElementById('q1_4').checked;
+    var c5 = document.getElementById('q1_5').checked;
+    
+    introdat = localStorage.getItem("intro");
+    extrodat = localStorage.getItem("extro");
+    advdat = localStorage.getItem("adv");
+    opidat = localStorage.getItem("opi");
+    objedat = localStorage.getItem("obje");
+    subjdat = localStorage.getItem("subj");
+    helpdat = localStorage.getItem("help");
+    selfdat = localStorage.getItem("self");
+    consdat = localStorage.getItem("cons");
+    spondat = localStorage.getItem("spon");
+    intro = JSON.parse(introdat);
+    extro = JSON.parse(extrodat);
+    adv = JSON.parse(advdat);
+    opi = JSON.parse(opidat);
+    obje = JSON.parse(objedat);
+    subj = JSON.parse(subjdat);
+    help = JSON.parse(helpdat);
+    self = JSON.parse(selfdat);
+    cons = JSON.parse(consdat);
+    spon = JSON.parse(spondat);
+  
+    if (c1 == true) {
+        extro += 1;
+        opi += 1;
+        subj += 1;
+        self += 1;
+        spon += 1;
+    }
+    if (c2 == true) {
+        intro += 1;
+        adv += 1;
+        subj += 1;
+        help += 1;
+        spon += 1;
+    }
+    if (c3 == true) {
+        extro += 1;
+        adv += 1;
+        subj += 1;
+        help += 1;
+        spon += 1;
+    }
+    if (c4 == true) {
+        intro += 1;
+        opi += 1;
+        obje += 1;
+        self += 1;
+        cons += 1;
+    }
+    if (c5 == true) {
+        opi += 3;
+    }
+    let results = [intro, extro, adv, opi, obje, subj, help, self, cons, spon];
+    console.log(results);
+    localStorage.setItem("intro", JSON.stringify(intro));
+    localStorage.setItem("extro", JSON.stringify(extro));
+    localStorage.setItem("adv", JSON.stringify(adv));
+    localStorage.setItem("opi", JSON.stringify(opi));
+    localStorage.setItem("obje", JSON.stringify(obje));
+    localStorage.setItem("subj", JSON.stringify(subj));
+    localStorage.setItem("help", JSON.stringify(help));
+    localStorage.setItem("self", JSON.stringify(self));
+    localStorage.setItem("cons", JSON.stringify(cons));
+    localStorage.setItem("spon", JSON.stringify(spon));
+    window.location.href = "results.html"; 
+  }
+  
