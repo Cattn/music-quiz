@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-
 <link rel="stylesheet" type="text/css" href="formstyle4.css">
+
 <div class="center-title">
 <h1 class="title-q">Results!</h1>
 </div>
@@ -14,43 +14,251 @@
 <form name="question_form">
         <div class="center">
         <div class="form-box-1">
-        <div class="pad" id="result1"></div>
+        <div style="cursor: pointer;" class="pad" id="result1"></div>
+        <div id="mpopupBox" class="mpopup">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close">×</span>
+                        <h2 id="result1-title"></h2>
+                    </div>
+                    <div class="modal-body">
+                        <p id="result1-cont"></p>
+                    </div>
+                </div>
+            </div>
         </div>
         </div>
         <br>
         <div class="center">
         <div class="form-box-2">
-        <div class="pad" id="result2"></div>
+        <div style="cursor: pointer;" class="pad" id="result2"></div>
+        <div id="mpopupBox2" class="mpopup">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close1">×</span>
+                        <h2 id="result2-title"></h2>
+                    </div>
+                    <div class="modal-body">
+                        <p id="result2-cont"></p>
+                    </div>
+                </div>
+            </div>
         </div>
         </div>
         <br>
         <div class="center">
         <div class="form-box-3">
-        <div class="pad" id="result3"></div>
+        <div style="cursor: pointer;" class="pad" id="result3"></div>
+        <div id="mpopupBox3" class="mpopup">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close2">×</span>
+                        <h2 id="result3-title"></h2>
+                    </div>
+                    <div class="modal-body">
+                        <p id="result3-cont"></p>
+                    </div>
+                </div>
+            </div>
         </div>
         </div>
         <br>
         <div class="center">
         <div class="form-box-4">
-        <div class="pad" id="result4"></div>
+        <div style="cursor: pointer;" class="pad" id="result4"></div>
+        <div id="mpopupBox4" class="mpopup">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close3">×</span>
+                        <h2 id="result4-title"></h2>
+                    </div>
+                    <div class="modal-body">
+                        <p id="result4-cont"></p>
+                    </div>
+                </div>
+            </div>
         </div>
         </div>
         <br>
         <div class="center">
         <div class="form-box-5">
-        <div class="pad" id="result5"></div>
+        <div style="cursor: pointer;" class="pad" id="result5"></div>
+        <div id="mpopupBox5" class="mpopup">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close4">×</span>
+                        <h2 id="result5-title"></h2>
+                    </div>
+                    <div class="modal-body">
+                        <p id="result5-cont"></p>
+                    </div>
+                </div>
+            </div>
         </div>
         </div>
         <br>
         <div class="center">
-        <div class="form-box-5">
-        <div class="pad" id="pers-type"></div>
+        <div class="form-box-6">
+         <div class="pad" id="pers-type"></div>
         </div>
         </div>
+        
         <br>
         <div class="center"><div class="button-1"><button class="button" type="button" onclick="restart();">Restart</button></div></div>
 </form>
 </div>
 </div>
+<script>
+function modal1() {
+// Select modal
+var mpopup = document.getElementById('mpopupBox');
+
+// Select trigger link
+var mpLink = document.getElementById("result1");
+
+// Select close action element
+var close1 = document.getElementsByClassName("close")[0];
+
+// Open modal once the link is clicked
+mpLink.onclick = function() {
+    mpopup.style.display = "block";
+};
+
+// Close modal once close element is clicked
+close1.onclick = function() {
+    mpopup.style.display = "none";
+};
+
+// Close modal when user clicks outside of the modal box
+window.onclick = function(event) {
+    if (event.target == mpopup) {
+        mpopup.style.display = "none";
+    }
+};
+}
+modal1();
+
+function modal2() {
+// Select modal
+var mpopup = document.getElementById('mpopupBox2');
+
+// Select trigger link
+var mpLink = document.getElementById("result2");
+
+// Select close action element
+var close1 = document.getElementsByClassName("close1")[0];
+
+// Open modal once the link is clicked
+mpLink.onclick = function() {
+    mpopup.style.display = "block";
+};
+
+// Close modal once close element is clicked
+close1.onclick = function() {
+    mpopup.style.display = "none";
+};
+
+// Close modal when user clicks outside of the modal box
+window.onclick = function(event) {
+    if (event.target == mpopup) {
+        mpopup.style.display = "none";
+    }
+};
+}
+modal2();
+
+function modal3() {
+// Select modal
+var mpopup = document.getElementById('mpopupBox3');
+
+// Select trigger link
+var mpLink = document.getElementById("result3");
+
+// Select close action element
+var close1 = document.getElementsByClassName("close2")[0];
+
+// Open modal once the link is clicked
+mpLink.onclick = function() {
+    mpopup.style.display = "block";
+};
+
+// Close modal once close element is clicked
+close1.onclick = function() {
+    mpopup.style.display = "none";
+};
+
+// Close modal when user clicks outside of the modal box
+window.onclick = function(event) {
+    if (event.target == mpopup) {
+        mpopup.style.display = "none";
+    }
+};
+}
+modal3();
+
+function modal4() {
+// Select modal
+var mpopup = document.getElementById('mpopupBox4');
+
+// Select trigger link
+var mpLink = document.getElementById("result4");
+
+// Select close action element
+var close1 = document.getElementsByClassName("close3")[0];
+
+// Open modal once the link is clicked
+mpLink.onclick = function() {
+    mpopup.style.display = "block";
+};
+
+// Close modal once close element is clicked
+close1.onclick = function() {
+    mpopup.style.display = "none";
+};
+
+// Close modal when user clicks outside of the modal box
+window.onclick = function(event) {
+    if (event.target == mpopup) {
+        mpopup.style.display = "none";
+    }
+};
+}
+modal4();
+
+function modal5() {
+// Select modal
+var mpopup = document.getElementById('mpopupBox5');
+
+// Select trigger link
+var mpLink = document.getElementById("result5");
+
+// Select close action element
+var close1 = document.getElementsByClassName("close4")[0];
+
+// Open modal once the link is clicked
+mpLink.onclick = function() {
+    mpopup.style.display = "block";
+};
+
+// Close modal once close element is clicked
+close1.onclick = function() {
+    mpopup.style.display = "none";
+};
+
+// Close modal when user clicks outside of the modal box
+window.onclick = function(event) {
+    if (event.target == mpopup) {
+        mpopup.style.display = "none";
+    }
+};
+}
+modal5();
+console.log("hello");
+</script>
 <script src="results.js"></script>
 </html>

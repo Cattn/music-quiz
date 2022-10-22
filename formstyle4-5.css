@@ -36,7 +36,7 @@
   
   .form-design {
     width: 950px;
-    height: 450px;
+    height: 425px;
   
   background: #CA9B9B;
   border-radius: 38px;
@@ -53,8 +53,8 @@
   }
   
   .form-box-1 {
-    width: 300px;
-    height: 100px;
+    width: 420px;
+    height: 130px;
   
     background: #D9D9D9;
     border-radius: 17px;
@@ -66,8 +66,8 @@
   }
   
   .form-box-2 {
-    width: 300px;
-    height: 100px;
+    width: 420px;
+    height: 130px;
   
     background: #D9D9D9;
     border-radius: 17px;
@@ -79,8 +79,8 @@
   }
   
   .form-box-3 {
-    width: 300px;
-    height: 100px;
+    width: 420px;
+    height: 130px;
   
     background: #D9D9D9;
     border-radius: 17px;
@@ -92,8 +92,8 @@
   }
   
   .form-box-4 {
-    width: 300px;
-    height: 100px;
+    width: 420px;
+    height: 130px;
   
     background: #D9D9D9;
     border-radius: 17px;
@@ -105,8 +105,8 @@
   }
 
   .form-box-8 {
-    width: 300px;
-    height: 100px;
+    width: 420px;
+    height: 130px;
   
     background: #D9D9D9;
     border-radius: 17px;
@@ -117,9 +117,22 @@
   font-size: 18px;
   }
 
+  .form-box-9 {
+    width: 420px;
+    height: 130px;
+  
+    background: #D9D9D9;
+    border-radius: 17px;
+    text-align: center;
+    font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  }
+
   .form-box-5 {
-    width: 300px;
-    height: 100px;
+    width: 420px;
+    height: 130px;
   
     background: #D9D9D9;
     border-radius: 17px;
@@ -147,7 +160,7 @@
   }
   
   .pad {
-    margin-top: 45px;
+    margin-top: 55px;
   }
   
   .button {
@@ -168,6 +181,11 @@
   }
 
   .align-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .align-3 {
     display: flex;
     justify-content: space-between;
   }

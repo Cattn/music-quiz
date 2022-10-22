@@ -35,8 +35,8 @@
   }
   
   .form-design {
-    width: 950px;
-    height: 450px;
+    width: 1100px;
+    height: 490px;
   
   background: #CA9B9B;
   border-radius: 38px;
@@ -54,7 +54,7 @@
   
   .form-box-1 {
     width: 300px;
-    height: 100px;
+    height: 110px;
   
     background: #D9D9D9;
     border-radius: 17px;
@@ -67,7 +67,7 @@
   
   .form-box-2 {
     width: 300px;
-    height: 100px;
+    height: 110px;
   
     background: #D9D9D9;
     border-radius: 17px;
@@ -80,7 +80,7 @@
   
   .form-box-3 {
     width: 300px;
-    height: 100px;
+    height: 110px;
   
     background: #D9D9D9;
     border-radius: 17px;
@@ -93,7 +93,7 @@
   
   .form-box-4 {
     width: 300px;
-    height: 100px;
+    height: 110px;
   
     background: #D9D9D9;
     border-radius: 17px;
@@ -106,7 +106,7 @@
 
   .form-box-8 {
     width: 300px;
-    height: 100px;
+    height: 110px;
   
     background: #D9D9D9;
     border-radius: 17px;
@@ -117,9 +117,22 @@
   font-size: 18px;
   }
 
+  .form-box-9 {
+    width: 300px;
+    height: 110px;
+  
+    background: #D9D9D9;
+    border-radius: 17px;
+    text-align: center;
+    font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  }
+
   .form-box-5 {
     width: 300px;
-    height: 100px;
+    height: 110px;
   
     background: #D9D9D9;
     border-radius: 17px;
@@ -128,7 +141,31 @@
     font-family: 'Calibri';
     font-style: normal;
     font-weight: 700;
-    margin-bottom: 30px;
+  }
+  .form-box-6 {
+    width: 300px;
+    height: 110px;
+  
+    background: #D9D9D9;
+    border-radius: 17px;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .form-box-7 {
+    width: 300px;
+    height: 110px;
+  
+    background: #D9D9D9;
+    border-radius: 17px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
   }
   
   .center {
@@ -147,7 +184,7 @@
   }
   
   .pad {
-    margin-top: 45px;
+    margin-top: 55px;
   }
   
   .button {
@@ -168,6 +205,11 @@
   }
 
   .align-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .align-3 {
     display: flex;
     justify-content: space-between;
   }
