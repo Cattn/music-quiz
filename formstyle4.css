@@ -13,17 +13,27 @@
   .title-q {
     font-family: 'Cooper Black';
   font-style: normal;
-  font-size: 64px;
+  font-size: 52px;
   /* identical to box height */
   color: #000000;
   display: block;
+  }
+
+  .title-f {
+    font-family: 'Cooper Black';
+  font-style: normal;
+  font-size: 18px;
+  /* identical to box height */
+  color: #000000;
+  display: block;
+  margin-bottom: 5px;
   }
   
   .q-text {
     font-family: 'Cooper Black';
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 32px;
   display: block;
   padding: 10px;
   }
@@ -36,7 +46,7 @@
   
   .form-design {
     width: 400px;
-  height: 430px;
+  height: 460px;
   
   background: #CA9B9B;
   border-radius: 38px;
